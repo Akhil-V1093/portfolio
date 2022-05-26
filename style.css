@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.img-wrap {
+    /* position: fixed; */
+    width: 100%;
+    height: 90vh;
+}
+.img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mail-wrap,
+.writing-wrap,
+.bio-wrap {
+    padding: 20px 30px;
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+}
+iframe {
+    width: 100%;
+}
+.mail-wrap a:last-child {
+    margin-left: 50px;
+}
+.mail-wrap .fa {
+    margin-right: 5px;
+}
+.mail-wrap a {
+    color: #666;
+}
